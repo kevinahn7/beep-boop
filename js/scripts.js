@@ -34,6 +34,5 @@ $(document).ready(function() {
         var numberInt = parseInt(numberString);
         var answer = beepBoop(numberInt, userName);
         $(".answer").text(answer);
-        console.log(userName)
     });
 });
