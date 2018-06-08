@@ -4,6 +4,7 @@ var array = [];
 function beepBoop(input) {
     for (x=0; x<= input; x++) {
         array.push(x);
+        
     }
     return array;
 }
@@ -23,6 +24,7 @@ function beepBoop(input) {
 $(document).ready(function() {
     $("#theForm").submit(function(event) {
         event.preventDefault();
+        array = [];
         var numberString = $("#inputNumber").val();
         var numberInt = parseInt(numberString);
         var answer = beepBoop(numberInt);
