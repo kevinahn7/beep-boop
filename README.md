@@ -9,7 +9,7 @@
 A website created with JavaScript, HTML and CSS where a user can submit a number and returns beep, boop or other as per the assignment from the Epicodus week three capstone project.
 
 
-### Specs
+## Specs
 The first exception will apply unless the second does, and the same with the second and third.  
 
 | Specifications | Input | Output |
