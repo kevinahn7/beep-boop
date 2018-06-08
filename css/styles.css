@@ -5,6 +5,8 @@ body {
 
 .answer {
     word-wrap: break-word;
+    max-width: 80%;
+    margin: 20px auto;
 }
 
 .inputs {
