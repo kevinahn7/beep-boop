@@ -5,6 +5,10 @@ function beepBoop(input, name) {
         var invalidNumber = "That is not a valid input " + name + ", please enter a number.";
         array.push(invalidNumber);
         return array;
+    } else if (input < 0) {
+        var negativeNumber = "No negative numbers, please put in a positive number!";
+        array.push(negativeNumber);
+        return array;
     } else {
         for (x=0; x<= input; x++) {
             var pushIt = x;
