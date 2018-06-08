@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+.namer {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .answer {
     word-wrap: break-word;
     max-width: 80%;
