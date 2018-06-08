@@ -3,9 +3,13 @@ body {
     text-align: center;
 }
 
+#theForm {
+    margin: 40px 0;
+}
+
 .namer {
     max-width: 50%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .answer {
