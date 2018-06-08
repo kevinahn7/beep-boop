@@ -4,6 +4,7 @@ function beepBoop(input) {
     if (isNaN(input)) {
         var invalidNumber = "That is not a valid input, please enter a number.";
         array.push(invalidNumber);
+        return array;
     } else {
         for (x=0; x<= input; x++) {
             var pushIt = x;
