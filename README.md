@@ -18,8 +18,8 @@ The first exception will apply unless the second does, and the same with the sec
 | Numbers that contain a "0" are replaced with "Beep!" | 20 | "Beep!" |
 | Numbers that contain a "1" are replaced with "Boop!" | 13 | "Boop!" |
 | Numbers divisible by 3 are replaced with "I'm sorry, [username]. I'm afraid I can't do that." | 39 | "Im sorry, Bob. I'm afraid I can't do that." |
-| Returns error message if entered anything besides a number | Strawyberry pie | "That is not a valid input, please enter a number." |
-| Numbers that are negative will recieve an error message | -17 | "No negative numbers, please put in a positive number!" |
+| Returns error message if entered anything besides a number | Strawyberry pie | "That is not a valid input [username], please enter a number." |
+| Numbers that are negative will recieve an error message | -17 | "No negative numbers [username], please put in a positive number!" |
 
 ## Setup/Installation Requirements
 

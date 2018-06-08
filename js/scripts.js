@@ -6,7 +6,7 @@ function beepBoop(input, name) {
         array.push(invalidNumber);
         return array;
     } else if (input < 0) {
-        var negativeNumber = "No negative numbers, please put in a positive number!";
+        var negativeNumber = "No negative numbers " + name + ", please put in a positive number!";
         array.push(negativeNumber);
         return array;
     } else {
