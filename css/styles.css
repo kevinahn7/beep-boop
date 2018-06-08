@@ -2,6 +2,11 @@ body {
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
+
 .answer {
     word-wrap: break-word;
+}
+
+.inputs {
+    margin: 0 auto;
 }
