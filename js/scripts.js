@@ -3,7 +3,11 @@ var array = [];
 
 function beepBoop(input) {
     for (x=0; x<= input; x++) {
-        array.push(x);
+        var pushIt = x;
+        if (x.toString().split("").includes("0")) {
+            pushIt = "Beep!";
+        }
+        array.push(pushIt);
         
     }
     return array;
