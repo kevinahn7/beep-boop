@@ -35,6 +35,10 @@ The first exception will apply unless the second does, and the same with the sec
 * JavaScript
 * jQuery
 
+## Links  
+* [The Repository](https://github.com/kevinahn7/beep-boop)  
+* [The Webpage](https://kevinahn7.github.io/beep-boop/)
+
 ## Support and contact details
 
 _Email kevinahn7@hotmail.com any questions, comments, or concerns._
