@@ -1,4 +1,4 @@
-//Back end
+//Back end, Business logic
 var array = [];
 function beepBoop(input) {
     if (isNaN(input)) {
@@ -20,7 +20,7 @@ function beepBoop(input) {
         return array;
     };
 };
-//Front end
+//Front end, UI logic
 $(document).ready(function() {
     $("#theForm").submit(function(event) {
         event.preventDefault();
